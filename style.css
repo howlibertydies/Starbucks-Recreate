@@ -1,0 +1,365 @@
+* {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+li {
+  margin-left: 20px;
+}
+
+li:first-child {
+  margin-left: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  font-size: 17px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search a {
+  margin-right: 5px;
+}
+
+.user {
+  margin-left: 20px;
+}
+
+.user a:first-child {
+  margin-right: 5px;
+}
+
+.actions {
+  display: flex;
+}
+
+.search a {
+  margin-right: 10px;
+}
+
+.searchText {
+  margin-right: 20px;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 50px;
+  font-size: 16px;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.button.signin {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.button.join {
+  background-color: #000;
+  color: #fff;
+}
+
+.logo {
+  margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+.appreciation {
+  background-color: #A0C292;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.appreciation-text {
+  width: 50%;
+  color: #1E3932;
+  text-align: center;
+}
+
+.appreciation-text h2 {
+  font-size: 58px;
+  margin-bottom: 20px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
+
+.appreciation-text p {
+  font-size: 28px;
+  line-height: 1.5;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.banner-image {
+  width: 50%;
+}
+
+.banner-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.appreciation-button {
+  background-color: #A0C292;
+  border: 1px solid #1E3932;
+  border-radius: 50px;
+  color: #1E3932;
+  font-size: 18px;
+  padding: 5px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.appreciation-button:hover {
+  background-color: #94b489;
+}
+
+
+
+
+
+
+
+
+.spring {
+  background-color: #D4E9E2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.spring-text {
+  width: 50%;
+  color: #1E3932;
+  text-align: center;
+}
+
+.spring-text h2 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  padding-right: 60px;
+  padding-left: 60px;
+}
+
+.spring-text p {
+  font-size: 20px;
+  line-height: 1.5;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.spring-button {
+  background-color: #D4E9E2;
+  border: 1px solid #1E3932;
+  border-radius: 50px;
+  color: #1E3932;
+  font-size: 18px;
+  padding: 5px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.spring-button:hover {
+  background-color: #b8c9c3;
+}
+
+
+
+
+
+
+
+
+.sunny {
+  background-color: #F6BFD9;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.sunny-text {
+  width: 50%;
+  color: #1E3932;
+  text-align: center;
+}
+
+.sunny-text h2 {
+  font-size: 58px;
+  margin-bottom: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.sunny-text p {
+  font-size: 28px;
+  line-height: 1.5;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.sunny-button {
+  background-color: #F6BFD9;
+  border: 1px solid #1E3932;
+  border-radius: 50px;
+  color: #1E3932;
+  font-size: 18px;
+  padding: 5px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.sunny-button:hover {
+  background-color: #e6b4cc;
+}
+
+
+
+
+
+
+
+
+
+.nitro {
+  background-color: #FFC519;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.nitro-text {
+  width: 50%;
+  color: #1E3932;
+  text-align: center;
+}
+
+.nitro-text h2 {
+  font-size: 58px;
+  
+  margin-bottom: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.nitro-text p {
+  font-size: 28px;
+  line-height: 1.5;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+
+.nitro-button {
+  background-color: #FFC519;
+  border: 1px solid #1E3932;
+  border-radius: 50px;
+  color: #1E3932;
+  font-size: 18px;
+  padding: 5px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.nitro-button:hover {
+  background-color: #e7b214;
+}
+
+
+
+
+
+
+
+
+
+
+.choice {
+  background-color: #FFF4D4;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.choice-text {
+  width: 50%;
+  color: #1E3932;
+  text-align: center;
+}
+
+.choice-text h2 {
+  font-size: 58px;
+  
+  margin-bottom: 20px;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.choice-text p {
+  font-size: 28px;
+  line-height: 1.5;
+  padding-right: 90px;
+  padding-left: 90px;
+}
+
+.choice-button {
+  background-color: #FFF4D4;
+  border: 1px solid #1E3932;
+  border-radius: 50px;
+  color: #1E3932;
+  font-size: 18px;
+  padding: 5px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.choice-button:hover {
+  background-color: #e7ddc0;
+}
